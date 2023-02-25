@@ -1,16 +1,22 @@
-# Delphi-Projects-Template
+# Taquin DX Books
 
 [Cette page en français.](LISEZMOI.md)
 
-A git template for my Delphi (or others) projects.
+A Taquin game that uses pictures of books published on Delphi and the Pascal language during the last 12 months.
 
-This template is distributed under MIT license. The AGPL license is for projects I create from this code repository template. Use the license you want if you use the template.
+The data comes from the API of the [Delphi Books] site (https://delphi-books.com)
+
+For more information about the game (as a player) and to download it, go to [its site](https://taquindxbooks.gamolf.fr/).
+
+To see how the game was developed, watch [the live coding session replays](https://serialstreameur.fr/jv-taquin-dx-books.php) available on [Serial Streamer](https://serialstreameur.fr/).
+
+To learn more about the technical part, go to [its section](https://developpeur-pascal.fr/taquin-dx-books.html) of the [Pascal Developer] blog(https://developpeur-pascal.fr/).
 
 This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
 
 ## Install
 
-To download this project you better should use "git" command but you also can download a ZIP from [its GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX).
+To download this project you better should use "git" command but you also can download a ZIP from [its GitHub repository](https://github.com/DeveloppeurPascal/TaquinDXBooks).
 
 **Warning :** if the project has submodules dependencies they wont be in the ZIP file. You'll have to download them manually.
 
@@ -18,18 +24,17 @@ To download this project you better should use "git" command but you also can do
 
 This project depends on :
 
-* project 1
-* project 2
+* [DeveloppeurPascal/librairies](https://github.com/DeveloppeurPascal/librairies) in the folder ./lib-externes/librairies
 
 ## How to ask a new feature, report a bug or a security issue ?
 
-If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX) and [open a new issue](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues).
+If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/TaquinDXBooks) and [open a new issue](https://github.com/DeveloppeurPascal/TaquinDXBooks/issues).
 
 If you found a security issue please don't report it publicly before a patch is available. Explain the case by [sending a private message to the author](https://developpeur-pascal.fr/nous-contacter.php).
 
 You also can fork the repository and contribute by submitting pull requests if you want to help. Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-## Dual licensing model (only for my projects, not for this code repository template)
+## Dual licensing model
 
 This project is distributed under [AGPL 3.0 or later](https://choosealicense.com/licenses/agpl-3.0/) license.
 
