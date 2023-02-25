@@ -1,0 +1,31 @@
+object CaseDuJeu: TCaseDuJeu
+  Size.Width = 320.000000000000000000
+  Size.Height = 240.000000000000000000
+  Size.PlatformDefault = False
+  OnClick = FrameClick
+  object imgMorceau: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Client
+    HitTest = False
+    Size.Width = 320.000000000000000000
+    Size.Height = 240.000000000000000000
+    Size.PlatformDefault = False
+    object VisuASaPlace: TRectangle
+      Align = Client
+      Fill.Kind = None
+      HitTest = False
+      Size.Width = 320.000000000000000000
+      Size.Height = 240.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 2.000000000000000000
+    end
+  end
+  object AnimeLesDeplacements: TFloatAnimation
+    Duration = 0.200000002980232200
+    OnFinish = AnimeLesDeplacementsFinish
+    StartValue = 0.000000000000000000
+    StopValue = 0.000000000000000000
+  end
+end

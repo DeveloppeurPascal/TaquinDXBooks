@@ -1,0 +1,99 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'Taquin DX Books'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnResize = FormResize
+  DesignerMasterStyle = 0
+  object ecranJeu: TLayout
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object BordureDuJeu: TRectangle
+      Align = Center
+      Fill.Color = claBisque
+      Padding.Left = 7.000000000000000000
+      Padding.Top = 7.000000000000000000
+      Padding.Right = 7.000000000000000000
+      Padding.Bottom = 7.000000000000000000
+      Size.Width = 186.000000000000000000
+      Size.Height = 226.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 3.000000000000000000
+      XRadius = 10.000000000000000000
+      YRadius = 10.000000000000000000
+      object zoneDeJeu: TScaledLayout
+        Align = Client
+        OriginalWidth = 241.000000000000000000
+        OriginalHeight = 385.000000000000000000
+        Size.Width = 172.000000000000000000
+        Size.Height = 212.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object btnJouer: TRectangle
+      Align = Center
+      Opacity = 0.800000011920928900
+      Margins.Left = 50.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 50.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 200.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 25.000000000000000000
+      YRadius = 20.000000000000000000
+      OnClick = btnJouerClick
+      object txtJouer: TText
+        Align = Center
+        AutoSize = True
+        HitTest = False
+        Size.Width = 113.242187500000000000
+        Size.Height = 39.902343750000000000
+        Size.PlatformDefault = False
+        Text = 'Taquin !'
+        TextSettings.Font.Size = 30.000000000000000000
+      end
+    end
+  end
+  object ecranAccueil: TVertScrollBox
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Visible = False
+    Viewport.Width = 640.000000000000000000
+    Viewport.Height = 480.000000000000000000
+    object listeCouvertures: TFlowLayout
+      Align = Top
+      Size.Width = 640.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Justify = Left
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+    end
+  end
+  object ecranAttente: TRectangle
+    Align = Contents
+    Fill.Color = claOrange
+    Opacity = 0.400000005960464400
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    Visible = False
+    object ecranAttenteAnimation: TAniIndicator
+      Align = Center
+    end
+  end
+end

@@ -1,0 +1,82 @@
+object ImageAChoisir: TImageAChoisir
+  Margins.Left = 5.000000000000000000
+  Margins.Top = 5.000000000000000000
+  Margins.Right = 5.000000000000000000
+  Margins.Bottom = 5.000000000000000000
+  Size.Width = 200.000000000000000000
+  Size.Height = 200.000000000000000000
+  Size.PlatformDefault = False
+  object Couverture: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Client
+    HitTest = False
+    Size.Width = 200.000000000000000000
+    Size.Height = 200.000000000000000000
+    Size.PlatformDefault = False
+    object btnJouer: TRectangle
+      Align = Bottom
+      Opacity = 0.800000011920928900
+      Margins.Left = 50.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 50.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 50.000000000000000000
+      Position.Y = 85.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 25.000000000000000000
+      YRadius = 20.000000000000000000
+      OnClick = btnJouerClick
+      object txtJouer: TText
+        Align = Center
+        AutoSize = True
+        HitTest = False
+        Size.Width = 81.381835937500010000
+        Size.Height = 39.902343750000000000
+        Size.PlatformDefault = False
+        Text = 'Jouer'
+        TextSettings.Font.Size = 30.000000000000000000
+      end
+    end
+    object btnGoSite: TRectangle
+      Align = Bottom
+      Opacity = 0.800000011920928900
+      Margins.Left = 50.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 50.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 50.000000000000000000
+      Position.Y = 145.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 25.000000000000000000
+      YRadius = 20.000000000000000000
+      OnClick = btnGoSiteClick
+      object txtGoSite: TText
+        Align = Center
+        AutoSize = True
+        HitTest = False
+        Size.Width = 57.504882812500000000
+        Size.Height = 39.902343750000000000
+        Size.PlatformDefault = False
+        Text = 'Lire'
+        TextSettings.Font.Size = 30.000000000000000000
+      end
+    end
+  end
+  object ecranAttente: TRectangle
+    Align = Contents
+    Fill.Color = claLightcyan
+    Size.Width = 320.000000000000000000
+    Size.Height = 240.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object ecranAttenteAnimation: TAniIndicator
+      Align = Center
+    end
+  end
+end
