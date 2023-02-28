@@ -12,6 +12,8 @@ Pour voir comment le jeu a été développé, regardez [les rediffusions des ses
 
 Pour en savoir plus sur la partie technique, rendez-vous sur [sa rubrique](https://developpeur-pascal.fr/taquin-dx-books.html) du blog [Developpeur Pascal](https://developpeur-pascal.fr/).
 
+Vous pouvez voir d'autres implémentations du jeu de taquin dans différentes versions de Delphi en consultant [ce dépôt de Serge Girard](https://github.com/Serge-Girard/Taquin) créé suite à [sa plongée dans le TControlList de Delphi](https://serialstreameur.fr/webinaire-20210520.php).
+
 Ce dépôt de code contient un projet développé en langage Pascal Objet sous Delphi. Vous ne savez pas ce qu'est Dephi ni où le télécharger ? Vous en saurez plus [sur ce site web](https://delphi-resources.developpeur-pascal.fr/).
 
 ## Installation

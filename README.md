@@ -12,6 +12,8 @@ To see how the game was developed, watch [the live coding session replays](https
 
 To learn more about the technical part, go to [its section](https://developpeur-pascal.fr/taquin-dx-books.html) of the [Pascal Developer blog](https://developpeur-pascal.fr/).
 
+You can see other Taquin game implementations in different Delphi releases by going to [this repository from Serge Girard](https://github.com/Serge-Girard/Taquin) created after his webinar "[plongée dans le TControlList de Delphi](https://serialstreameur.fr/webinaire-20210520.php)".
+
 This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
 
 ## Install
