@@ -4,13 +4,13 @@
 
 A Taquin game that uses pictures of books published on Delphi and the Pascal language during the last 12 months.
 
-The data comes from the API of the [Delphi Books] site (https://delphi-books.com)
+The data comes from the API of the [Delphi Books](https://delphi-books.com) site.
 
 For more information about the game (as a player) and to download it, go to [its site](https://taquindxbooks.gamolf.fr/).
 
 To see how the game was developed, watch [the live coding session replays](https://serialstreameur.fr/jv-taquin-dx-books.php) available on [Serial Streamer](https://serialstreameur.fr/).
 
-To learn more about the technical part, go to [its section](https://developpeur-pascal.fr/taquin-dx-books.html) of the [Pascal Developer] blog(https://developpeur-pascal.fr/).
+To learn more about the technical part, go to [its section](https://developpeur-pascal.fr/taquin-dx-books.html) of the [Pascal Developer blog](https://developpeur-pascal.fr/).
 
 This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
 
